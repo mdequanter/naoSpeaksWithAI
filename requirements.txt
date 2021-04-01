@@ -1,0 +1,4 @@
+parlai
+SpeechRecognition
+pipwin
+pyaudio
