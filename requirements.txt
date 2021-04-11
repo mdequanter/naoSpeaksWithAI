@@ -1,3 +1,5 @@
+python 2.7
+python 3.7
 parlai
 SpeechRecognition
 pipwin

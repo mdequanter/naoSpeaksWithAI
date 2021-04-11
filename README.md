@@ -4,15 +4,19 @@ Nao from Softbank Robotics is used to talk to a human.  On the background a Pyth
 And I added an own speech agent based on the local_human agent of parl.ai.  Just added speech_recognition based on google, to transform the spoken tekst into an anwer to send to the interactive script.
 
 
-To install you need following requirements :
+Installation procedure :
 
-parlai
-SpeechRecognition
-pipwin
-pyaudio
+1. Download and Install python 2.7
+2. Download and Install python 3.7
+3. pip install parlai
+4. pip install SpeechRecognition
+5. pip install pipwin
+6. Microsoft Visual C++ 14.0 is required. Get it with "Build Tools for Visual Studio": https://visualstudio.microsoft.com/downloads/
+7. Download corresponding wheel and navigate to Download map :  https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
+8. pip install PyAudio-0.2.11-cp37-cp37m-win_amd64.whl
 
 
-For Parlai, please visit parl.ai
+For more info on Parlai, please visit parl.ai
 
 Once installed make sure that NAO robot is up and connected. Specify the IP address and port in nao.py, port will be probably 9559, for the IP of Nao, press on his belly to hear the IP.
 You can also try the code with Choregraph by setting up a Virtual Robot.  Visit Softbankrobotics website to do this.
